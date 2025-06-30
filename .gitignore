@@ -1,0 +1,38 @@
+# Ignore node_modules in any folder
+**/node_modules/
+
+# Ignore Python virtual environments in any folder
+**/.venv/
+**/venv/
+
+# Ignore Python cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore environment files
+.env
+**/.env
+
+# Ignore build outputs
+**/dist/
+**/build/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Mac and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore coverage reports
+**/coverage/
+**/.coverage
+
+# Ignore yarn and npm logs
+yarn-error.log
+npm-debug.log
