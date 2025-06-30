@@ -4,6 +4,7 @@
 # Ignore Python virtual environments in any folder
 **/.venv/
 **/venv/
+.venv
 
 # Ignore Python cache
 **/__pycache__/
